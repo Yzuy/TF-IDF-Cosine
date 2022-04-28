@@ -1,0 +1,1 @@
+The dissect_packet function in epan/packet.c in Wireshark 1.4.x before 1.4.11 and 1.6.x before 1.6.5 allows remote attackers to cause a denial of service (application crash) via a long packet in a capture file, as demonstrated by an airopeek file.
