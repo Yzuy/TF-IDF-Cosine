@@ -40,7 +40,7 @@ def Traverse_Path(Path):
     FileList = []
     for roots, dirs, files in os.walk(Path):
         for file in files:
-            FilePath = os.path.join(file, roots)
+            FilePath = os.path.join(roots, file)
             FileList.append(FilePath)
     return FileList
 
